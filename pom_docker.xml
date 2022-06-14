@@ -45,8 +45,8 @@
              		  	  <alias>dockerfile</alias>
               	 		<build>
                 			<!-- filter>@</filter-->
-               			 	<contextDir>${project.basedir}</contextDir>
-               				 <dockerFile>Dockerfile-fabric8</dockerFile>
+               			 	<contextDir>${project.basedir}/docker</contextDir>
+               				 <dockerFile>Dockerfile</dockerFile>
                 			<assembly>
                  	 		 <descriptorRef>artifact-with-dependencies</descriptorRef>
                   	       		  <mode>tar</mode>
